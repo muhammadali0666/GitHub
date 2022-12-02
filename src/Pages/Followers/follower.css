@@ -1,0 +1,22 @@
+.follower-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(129, 126, 126);
+  margin-left: auto;
+}
+.follower-list {
+  padding-left: 0 !important;
+}
+.follower-item {
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.follower-btn {
+  height: 35px;
+  border: 1px solid rgb(119, 113, 113);
+  margin-left: auto;
+}

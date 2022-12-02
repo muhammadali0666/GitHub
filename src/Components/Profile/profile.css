@@ -1,0 +1,39 @@
+.profile-img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.profile-user-name {
+  text-align: start;
+  font-size: 20px;
+  opacity: 0.9;
+}
+.profile-btn {
+  width: 300px;
+  text-align: center;
+  border: 1px solid rgb(100, 99, 99);
+}
+.profile-btn:hover {
+  background-color: rgb(240, 237, 237);
+}
+.profile-box {
+  display: flex;
+  align-items: center;
+}
+.profile-box-in {
+  display: flex;
+  align-items: center;
+}
+.profile-span:hover {
+color: rgb(64, 0, 255);
+}
+.profile-follower {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.profile-follower:hover {
+  color: rgb(64, 0, 255);
+}
+.profile-follower {
+  text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.header-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(254, 254, 254);
+}
+.header-item + .header-item {
+  margin-left: 24px;
+
+}
+.img {
+  background-color: transparent;
+}
+.select {
+  background-color: transparent;
+}
+.option {
+  color: azure;
+}
+.head-img {
+  border-radius: 50%;
+}

@@ -1,0 +1,33 @@
+p {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.pins {
+  margin-left: auto !important;
+}
+.card {
+  padding-left: 0;
+  padding-left: 0 !important;
+}
+.card-btn {
+  border: 1px solid rgb(181, 170, 170);
+  background-color: transparent;
+}
+.buttom {
+  display: flex;
+  align-items: center;
+}
+.bottom-span {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(156, 41, 145);
+}
+.navlink {
+  text-decoration: none;
+}
+.repo-link {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,19 @@
+.header-form-box {
+  display: flex;
+  align-items: center;
+}
+.header-form {
+  display: flex;
+  align-items: center;
+}
+.header-input {
+  background-color: transparent;
+  border: 2px solid rgb(81, 80, 80);
+  width: 300px;
+}
+.header-btn {
+  border: 2px solid rgb(81, 80, 80);
+  transform: translate(-35px);
+  background-color: transparent;
+  color: rgb(173, 161, 161);
+}

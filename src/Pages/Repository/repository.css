@@ -1,0 +1,7 @@
+.repo-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+.repo-item {
+  display: flex;
+}
