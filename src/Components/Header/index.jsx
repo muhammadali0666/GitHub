@@ -37,8 +37,8 @@ export const Header = () => {
 
           <div className="header-end-box ms-auto">
             <img className="img" src={Notificate} alt="img" width={20} height={20}/>
-            <img className="heads-img mx-3"  src={Plus} alt="img" width={20} height={20}/>
-            <img className="head-img" src={Prof} alt="img" width={20} height={20} />
+            <img className="heads-img mx-3"  src={Plus} alt="img" width={25} height={25}/>
+            <img className="head-img" src={Prof} alt="img" width={25} height={25} />
           </div>
         </div>
       </div>

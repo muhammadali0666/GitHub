@@ -1,0 +1,14 @@
+.footer-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 80px;
+}
+.footer-item + .footer-item {
+ margin-left: 40px;
+}
+.footer-item-link {
+  text-decoration: none;
+  font-size: 14px;
+}

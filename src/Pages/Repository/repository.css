@@ -22,5 +22,21 @@
 .repos-btn {
   height: 30px;
   border: 1px solid rgb(107, 102, 102);
-  
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.round {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: rgb(238, 255, 0);
+}
+.repo-lang {
+  font-size: 14px;
+}
+.repo-select {
+  background-color: rgb(242, 245, 246);
+  border: 1px solid rgb(107, 102, 102);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }

@@ -36,9 +36,10 @@ export const Repository = () => {
                   </a>
                   <button className="repo-text ms-3 rounded-3 px-1">{e.visibility}</button>
                  </div>
-                  <button className="repos-btn rounded-3 px-2">
+                 <div className="box d-flex">
+                 <button className="repos-btn px-2 d-flex align-items-center">
                     <img
-                      className="me-3"
+                      className="me-2"
                       src={Star}
                       alt="img"
                       width={20}
@@ -46,12 +47,13 @@ export const Repository = () => {
                     />
                     Star
                   </button>
+                  <select className="repo-select">
+                  </select>
+                 </div>
                 </div>
                 <div className="repo-bottom">
-                  
+                  <p className="repo-lang mt-3 d-flex align-items-center"><div className="round me-1"></div>{e.language}</p>
                 </div>
-                {/* <p className="repo-date">{e.updated_at}</p> */}
-                {/* <img src="" alt="" /> */}
               </li>
               <hr />
               </>

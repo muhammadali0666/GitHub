@@ -1,5 +1,5 @@
 import { Header } from "../Header";
-import { Navbar } from "../Navbar";
+import {Footer} from "../Footer"
 import "./layout.css";
 
 export const Layout = ({ children }) => {
@@ -21,6 +21,7 @@ export const Layout = ({ children }) => {
           </div>
         </div>
       </main>
+      <Footer/>
     </>
   );
 };
