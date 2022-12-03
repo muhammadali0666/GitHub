@@ -1,0 +1,20 @@
+.input{
+  width: 400px;
+  border: 1px solid rgb(142, 136, 136);
+}
+.repo-nav {
+  border: 1px solid rgb(145, 142, 142);
+}
+.select {
+  background: rgb(246, 247, 247);
+}
+.img {
+  background-color: transparent;
+  border-radius: 10px;
+}
+.option {
+  color: #000;
+}
+.hr {
+  color: rgb(152, 149, 149);
+}

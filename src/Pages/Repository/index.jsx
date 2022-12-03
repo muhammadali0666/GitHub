@@ -1,7 +1,8 @@
-import "./repository.css";
+import "./repository.css"
 import { useEffect, useState } from "react";
 import moment from "moment/moment";
-import Star from "../../assets/img/star.png"
+import Star from "../../assets/img/stars.webp";
+import { RepoNav } from "../../Components/RepoNav";
 
 export const Repository = () => {
   const [myData, setMyData] = useState([]);
@@ -20,28 +21,43 @@ export const Repository = () => {
 
   return (
     <>
-      <h1>Repository</h1>
-        {
-          <ul className="repo-list">
-            {myData?.length > 0 &&
-              myData.map((e) => (
-                <li className="repo-item">
-                  <div className="repo-top">
-                  <a target="blank" href={e.html_url}>
-                  <p className="repo-p fs-3">{e.name}</p>
+    <RepoNav/>
+      {
+        <ul className="repo-list">
+          <hr />
+          {myData?.length > 0 &&
+            myData.map((e) => (
+              <>
+              <li className="repo-item py-3">
+                <div className="repo-top d-flex">
+                 <div className="mini-box">
+                 <a className="links" target="blank" href={e.html_url}>
+                    <p className="repo-p fs-3 fw-semibold fs-4 text-primary">{e.name}</p>
                   </a>
-                  <p className="repo-text">{e.visibility}</p>
-                  <button className="repo-btn">
-                    <img src={Star} alt="img" />
+                  <button className="repo-text ms-3 rounded-3 px-1">{e.visibility}</button>
+                 </div>
+                  <button className="repos-btn rounded-3 px-2">
+                    <img
+                      className="me-3"
+                      src={Star}
+                      alt="img"
+                      width={20}
+                      height={20}
+                    />
                     Star
                   </button>
-                  </div>
-                  <p className="repo-date">{e.updated_at}</p>
-                  {/* <img src="" alt="" /> */}
-                </li>
-              ))}
-          </ul>
-        }
-      </>
+                </div>
+                <div className="repo-bottom">
+                  
+                </div>
+                {/* <p className="repo-date">{e.updated_at}</p> */}
+                {/* <img src="" alt="" /> */}
+              </li>
+              <hr />
+              </>
+            ))}
+        </ul>
+      }
+    </>
   );
 };
