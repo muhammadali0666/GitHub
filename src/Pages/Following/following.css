@@ -17,3 +17,6 @@
   text-decoration: none;
   color: #000;
 }
+.follow-links:hover {
+  text-decoration: none;
+}

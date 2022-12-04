@@ -20,7 +20,7 @@ export const Profile = () => {
     <div>
       <img className="profile-img mt-4" src={myData.avatar_url} alt="logo" />
       <p className="profile-user-name my-3">{myData.login}</p>
-      <button className="profile-btn rounded-2 py-2">Edit profile</button>
+      <button className="profile-btn rounded-2 py-1 fw-semibold">Edit profile</button>
       <div className="profile-box mt-3">
         <div className="profile-box-in d-flex align-items-center">
           <img

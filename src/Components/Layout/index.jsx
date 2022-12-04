@@ -1,8 +1,11 @@
 import { Header } from "../Header";
 import {Footer} from "../Footer"
 import "./layout.css";
+import {Contex} from "../../Contex"
+import { useContext } from "react";
 
 export const Layout = ({ children }) => {
+  const cont = useContext(Contex)
   return (
     <>
       <header>
